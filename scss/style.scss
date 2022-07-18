@@ -37,6 +37,7 @@
     transform-style: preserve-3d;
     transform: translateZ(-100px) rotateY(45deg) rotateZ(-135deg);
     transition: all 1s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
     cursor: pointer;
 
     &.active {
