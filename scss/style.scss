@@ -37,8 +37,9 @@
     transform-style: preserve-3d;
     transform: translateZ(-100px) rotateY(45deg) rotateZ(-135deg);
     transition: all 1s ease-in-out;
+    cursor: pointer;
 
-    &:hover {
+    &.active {
         transform: translateZ(-100px) rotateY(-135deg) rotateZ(135deg);
     }
 
